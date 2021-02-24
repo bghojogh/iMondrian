@@ -32,7 +32,7 @@ def main():
     experiment = 5
     dataset = "smtp"  # --> two_moons, one_blob, two_blobs, two_different_blobs, Breast_cancer, Pima, Speech, Thyroid,
                             # Satellite, optdigits, letter, arrhythmia, ionosphere, http, shuttle, wine, annthyroid, smtp, musk, cardio, vowels, lympho
-    method = "osPCA_leastSquares"  # --> iso_forest, one_class_SVM, LOF, covariance_estimator, iMondrian_forest, osPCA_powerMethod, osPCA_leastSquares, online_LOF
+    method = "iMondrian_forest"  # --> iso_forest, one_class_SVM, LOF, covariance_estimator, iMondrian_forest, osPCA_powerMethod, osPCA_leastSquares, online_LOF
     generate_synthetic_datasets_again = False
     predict_anomaly_again = False
     predict_using_threshold = False  #--> True: by threshold, False: by K-means
